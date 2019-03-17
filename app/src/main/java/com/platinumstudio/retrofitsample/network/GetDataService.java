@@ -13,6 +13,7 @@ import retrofit2.http.GET;
  Each endpoint is represented as a method, which must include at least one HTTP annotation
  indicating how this request should be handled.
  */
+
 public interface GetDataService {
     @GET("/photos")
     Call<List<Photo>> getAllPhotos();
